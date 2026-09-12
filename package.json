@@ -9,16 +9,15 @@
     "html-minify",
     "htmlnano"
   ],
-  "homepage": "https://github.com/Arylo/scripts/tree/master/packages/esbuild-plugin/html-minify-text",
+  "homepage": "https://github.com/arylo-scripts/esbuild-plugin-html-minify-text#readme",
   "bugs": {
-    "url": "https://github.com/Arylo/scripts/issues"
+    "url": "https://github.com/arylo-scripts/esbuild-plugin-html-minify-text/issues"
   },
   "license": "MIT",
   "author": "Arylo Yeung <arylo.open@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Arylo/scripts.git",
-    "directory": "packages/esbuild-plugin/html-minify-text"
+    "url": "git+https://github.com/arylo-scripts/esbuild-plugin-html-minify-text.git"
   },
   "files": [
     "dist",
@@ -42,6 +41,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json",
     "clean": "rimraf dist",
+    "prepare": "npm run build",
     "prepublishOnly": "npm run build",
     "lint": "concurrently -m 1 --timings npm:lint:*",
     "lint:type-check": "tsc -p tsconfig.json --noEmit",
@@ -53,6 +53,8 @@
     "htmlnano": "^2.1.1"
   },
   "devDependencies": {
+    "@arylo-scripts/tsconfig": "github:arylo-scripts/tsconfig#master",
+    "@types/node": "^24.12.0",
     "concurrently": "^8.2.2",
     "oxfmt": "^0.35.0",
     "oxlint": "^1.58.0",
@@ -61,5 +63,9 @@
   },
   "peerDependencies": {
     "esbuild": "^0.28.0"
-  }
+  },
+  "engines": {
+    "node": "24.12.0"
+  },
+  "packageManager": "npm@11.6.2"
 }

@@ -46,9 +46,9 @@ npm run build
 npm run lint
 ```
 
-[LICENSE_URL]: https://img.shields.io/github/license/arylo/scripts.svg?logo=github&cacheSecond=7200
-[LICENSE_HREF]: https://github.com/Arylo/scripts/blob/master/LICENSE
+[LICENSE_URL]: https://img.shields.io/github/license/arylo-scripts/esbuild-plugin-html-minify-text.svg?logo=github&cacheSecond=7200
+[LICENSE_HREF]: https://github.com/arylo-scripts/esbuild-plugin-html-minify-text/blob/master/LICENSE
 [AUTHOR_URL]: https://img.shields.io/badge/Author-AryloYeung-blue.svg?logo=github&cacheSecond=7200
 [AUTHOR_HREF]: https://github.com/arylo
 [PRS_URL]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
-[PRS_HREF]: https://github.com/arylo/scripts/pulls
+[PRS_HREF]: https://github.com/arylo-scripts/esbuild-plugin-html-minify-text/pulls
