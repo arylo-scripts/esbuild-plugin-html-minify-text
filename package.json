@@ -36,7 +36,8 @@
     }
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "build": "tsc -p tsconfig.json",
@@ -53,7 +54,7 @@
     "htmlnano": "^2.1.1"
   },
   "devDependencies": {
-    "@arylo-scripts/tsconfig": "github:arylo-scripts/tsconfig#master",
+    "@arylo-scripts/tsconfig": "^1.0.0",
     "@types/node": "^24.12.0",
     "concurrently": "^8.2.2",
     "oxfmt": "^0.35.0",
