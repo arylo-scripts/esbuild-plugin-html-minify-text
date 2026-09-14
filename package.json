@@ -1,6 +1,6 @@
 {
   "name": "@arylo/esbuild-plugin-html-minify-text",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An esbuild plugin that minifies HTML files and returns them as text loader payload",
   "keywords": [
     "esbuild",
