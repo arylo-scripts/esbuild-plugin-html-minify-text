@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Align the documented esbuild peer dependency with the package manifest
 - Publish through the npmjs provenance workflow
+- Publish under the `@arylo-scripts` scope
 
 ## [1.0.0] - 2026-03-05
 

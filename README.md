@@ -1,4 +1,4 @@
-# @arylo/esbuild-plugin-html-minify-text
+# @arylo-scripts/esbuild-plugin-html-minify-text
 
 [![MIT-License][LICENSE_URL]][LICENSE_HREF]
 [![Author][AUTHOR_URL]][AUTHOR_HREF]
@@ -11,14 +11,14 @@ A plugin for `esbuild` that minifies `.html/.htm` files and returns the result a
 ## Install
 
 ```bash
-npm i @arylo/esbuild-plugin-html-minify-text
+npm i @arylo-scripts/esbuild-plugin-html-minify-text
 ```
 
 ## Usage
 
 ```ts
 import { build } from 'esbuild'
-import HTMLMinifyTextPlugin from '@arylo/esbuild-plugin-html-minify-text'
+import HTMLMinifyTextPlugin from '@arylo-scripts/esbuild-plugin-html-minify-text'
 
 await build({
   entryPoints: ['src/main.ts'],
