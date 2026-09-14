@@ -37,7 +37,7 @@ await build({
 
 ## 要求
 
-- `esbuild`：`^0.21.5`（peer dependency）
+- `esbuild`：`^0.28.0`（peer dependency）
 
 ## 开发
 
